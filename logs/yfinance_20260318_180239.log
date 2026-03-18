@@ -1,0 +1,527 @@
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | ============================================================
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | yfinance Historical Price Ingestion
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | Tickers : 50
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | Period  : 2019-01-01 → 2024-12-31
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | Output  : /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | ============================================================
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance | 
+[01/50] AAPL
+2026-03-18 18:02:39,377 | INFO | ingest_yfinance |   Downloading AAPL (attempt 1/3)
+2026-03-18 18:02:40,169 | INFO | ingest_yfinance |   AAPL: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:40,187 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/AAPL.parquet (17.7 KB, 252 rows)
+2026-03-18 18:02:40,188 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/AAPL.parquet (17.7 KB, 253 rows)
+2026-03-18 18:02:40,189 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/AAPL.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:40,190 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/AAPL.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:40,191 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/AAPL.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:40,192 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/AAPL.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:40,497 | INFO | ingest_yfinance | 
+[02/50] MSFT
+2026-03-18 18:02:40,498 | INFO | ingest_yfinance |   Downloading MSFT (attempt 1/3)
+2026-03-18 18:02:40,761 | INFO | ingest_yfinance |   MSFT: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:40,765 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MSFT.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:40,766 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MSFT.parquet (17.7 KB, 253 rows)
+2026-03-18 18:02:40,768 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MSFT.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:40,769 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MSFT.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:40,770 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MSFT.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:40,772 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MSFT.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:41,074 | INFO | ingest_yfinance | 
+[03/50] GOOGL
+2026-03-18 18:02:41,074 | INFO | ingest_yfinance |   Downloading GOOGL (attempt 1/3)
+2026-03-18 18:02:41,348 | INFO | ingest_yfinance |   GOOGL: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:41,351 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/GOOGL.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:41,353 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/GOOGL.parquet (17.7 KB, 253 rows)
+2026-03-18 18:02:41,354 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/GOOGL.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:41,356 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/GOOGL.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:41,357 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/GOOGL.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:41,359 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/GOOGL.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:41,662 | INFO | ingest_yfinance | 
+[04/50] NVDA
+2026-03-18 18:02:41,662 | INFO | ingest_yfinance |   Downloading NVDA (attempt 1/3)
+2026-03-18 18:02:42,009 | INFO | ingest_yfinance |   NVDA: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:42,012 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/NVDA.parquet (17.7 KB, 252 rows)
+2026-03-18 18:02:42,014 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/NVDA.parquet (17.8 KB, 253 rows)
+2026-03-18 18:02:42,015 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/NVDA.parquet (17.7 KB, 252 rows)
+2026-03-18 18:02:42,017 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/NVDA.parquet (17.7 KB, 251 rows)
+2026-03-18 18:02:42,018 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/NVDA.parquet (17.6 KB, 250 rows)
+2026-03-18 18:02:42,019 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/NVDA.parquet (17.7 KB, 251 rows)
+2026-03-18 18:02:42,325 | INFO | ingest_yfinance | 
+[05/50] META
+2026-03-18 18:02:42,325 | INFO | ingest_yfinance |   Downloading META (attempt 1/3)
+2026-03-18 18:02:42,621 | INFO | ingest_yfinance |   META: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:42,625 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/META.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:42,626 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/META.parquet (17.7 KB, 253 rows)
+2026-03-18 18:02:42,628 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/META.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:42,629 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/META.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:42,631 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/META.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:42,632 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/META.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:42,933 | INFO | ingest_yfinance | 
+[06/50] AMZN
+2026-03-18 18:02:42,933 | INFO | ingest_yfinance |   Downloading AMZN (attempt 1/3)
+2026-03-18 18:02:43,242 | INFO | ingest_yfinance |   AMZN: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:43,245 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/AMZN.parquet (15.9 KB, 252 rows)
+2026-03-18 18:02:43,246 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/AMZN.parquet (16.1 KB, 253 rows)
+2026-03-18 18:02:43,248 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/AMZN.parquet (15.9 KB, 252 rows)
+2026-03-18 18:02:43,249 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/AMZN.parquet (16.0 KB, 251 rows)
+2026-03-18 18:02:43,250 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/AMZN.parquet (15.8 KB, 250 rows)
+2026-03-18 18:02:43,251 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/AMZN.parquet (15.9 KB, 251 rows)
+2026-03-18 18:02:43,556 | INFO | ingest_yfinance | 
+[07/50] TSM
+2026-03-18 18:02:43,556 | INFO | ingest_yfinance |   Downloading TSM (attempt 1/3)
+2026-03-18 18:02:44,135 | INFO | ingest_yfinance |   TSM: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:44,139 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/TSM.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:44,140 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/TSM.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:44,141 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/TSM.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:44,143 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/TSM.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:44,144 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/TSM.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:44,145 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/TSM.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:44,446 | INFO | ingest_yfinance | 
+[08/50] AVGO
+2026-03-18 18:02:44,446 | INFO | ingest_yfinance |   Downloading AVGO (attempt 1/3)
+2026-03-18 18:02:45,039 | INFO | ingest_yfinance |   AVGO: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:45,042 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/AVGO.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:45,044 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/AVGO.parquet (17.7 KB, 253 rows)
+2026-03-18 18:02:45,045 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/AVGO.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:45,046 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/AVGO.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:45,048 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/AVGO.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:45,049 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/AVGO.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:45,352 | INFO | ingest_yfinance | 
+[09/50] ORCL
+2026-03-18 18:02:45,353 | INFO | ingest_yfinance |   Downloading ORCL (attempt 1/3)
+2026-03-18 18:02:45,687 | INFO | ingest_yfinance |   ORCL: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:45,690 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/ORCL.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:45,691 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/ORCL.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:45,693 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/ORCL.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:45,694 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/ORCL.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:45,696 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/ORCL.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:45,698 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/ORCL.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:46,001 | INFO | ingest_yfinance | 
+[10/50] AMD
+2026-03-18 18:02:46,002 | INFO | ingest_yfinance |   Downloading AMD (attempt 1/3)
+2026-03-18 18:02:46,307 | INFO | ingest_yfinance |   AMD: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:46,311 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/AMD.parquet (15.7 KB, 252 rows)
+2026-03-18 18:02:46,314 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/AMD.parquet (15.9 KB, 253 rows)
+2026-03-18 18:02:46,317 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/AMD.parquet (16.0 KB, 252 rows)
+2026-03-18 18:02:46,319 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/AMD.parquet (16.0 KB, 251 rows)
+2026-03-18 18:02:46,321 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/AMD.parquet (15.9 KB, 250 rows)
+2026-03-18 18:02:46,323 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/AMD.parquet (15.9 KB, 251 rows)
+2026-03-18 18:02:46,625 | INFO | ingest_yfinance | 
+[11/50] JPM
+2026-03-18 18:02:46,625 | INFO | ingest_yfinance |   Downloading JPM (attempt 1/3)
+2026-03-18 18:02:47,134 | INFO | ingest_yfinance |   JPM: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:47,138 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/JPM.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:47,141 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/JPM.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:47,143 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/JPM.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:47,145 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/JPM.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:47,146 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/JPM.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:47,147 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/JPM.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:47,452 | INFO | ingest_yfinance | 
+[12/50] BAC
+2026-03-18 18:02:47,452 | INFO | ingest_yfinance |   Downloading BAC (attempt 1/3)
+2026-03-18 18:02:48,111 | INFO | ingest_yfinance |   BAC: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:48,115 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/BAC.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:48,117 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/BAC.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:48,119 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/BAC.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:48,120 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/BAC.parquet (17.6 KB, 251 rows)
+2026-03-18 18:02:48,121 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/BAC.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:48,122 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/BAC.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:48,427 | INFO | ingest_yfinance | 
+[13/50] WFC
+2026-03-18 18:02:48,427 | INFO | ingest_yfinance |   Downloading WFC (attempt 1/3)
+2026-03-18 18:02:49,338 | INFO | ingest_yfinance |   WFC: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:49,341 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/WFC.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:49,343 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/WFC.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:49,344 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/WFC.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:49,345 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/WFC.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:49,347 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/WFC.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:49,348 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/WFC.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:49,653 | INFO | ingest_yfinance | 
+[14/50] GS
+2026-03-18 18:02:49,653 | INFO | ingest_yfinance |   Downloading GS (attempt 1/3)
+2026-03-18 18:02:50,674 | INFO | ingest_yfinance |   GS: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:50,676 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/GS.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:50,677 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/GS.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:50,677 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/GS.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:50,678 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/GS.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:50,679 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/GS.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:50,680 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/GS.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:50,985 | INFO | ingest_yfinance | 
+[15/50] MS
+2026-03-18 18:02:50,985 | INFO | ingest_yfinance |   Downloading MS (attempt 1/3)
+2026-03-18 18:02:51,369 | INFO | ingest_yfinance |   MS: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:51,373 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MS.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:51,375 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MS.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:51,376 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MS.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:51,377 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MS.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:51,379 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MS.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:51,380 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MS.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:51,682 | INFO | ingest_yfinance | 
+[16/50] BLK
+2026-03-18 18:02:51,682 | INFO | ingest_yfinance |   Downloading BLK (attempt 1/3)
+2026-03-18 18:02:52,077 | INFO | ingest_yfinance |   BLK: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:52,081 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/BLK.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:52,082 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/BLK.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:52,087 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/BLK.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:52,089 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/BLK.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:52,090 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/BLK.parquet (17.3 KB, 250 rows)
+2026-03-18 18:02:52,092 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/BLK.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:52,395 | INFO | ingest_yfinance | 
+[17/50] SCHW
+2026-03-18 18:02:52,396 | INFO | ingest_yfinance |   Downloading SCHW (attempt 1/3)
+2026-03-18 18:02:52,823 | INFO | ingest_yfinance |   SCHW: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:52,827 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/SCHW.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:52,828 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/SCHW.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:52,830 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/SCHW.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:52,831 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/SCHW.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:52,832 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/SCHW.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:52,834 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/SCHW.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:53,138 | INFO | ingest_yfinance | 
+[18/50] AXP
+2026-03-18 18:02:53,139 | INFO | ingest_yfinance |   Downloading AXP (attempt 1/3)
+2026-03-18 18:02:53,567 | INFO | ingest_yfinance |   AXP: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:53,571 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/AXP.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:53,572 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/AXP.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:53,574 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/AXP.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:53,575 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/AXP.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:53,576 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/AXP.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:53,577 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/AXP.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:53,883 | INFO | ingest_yfinance | 
+[19/50] V
+2026-03-18 18:02:53,883 | INFO | ingest_yfinance |   Downloading V (attempt 1/3)
+2026-03-18 18:02:54,370 | INFO | ingest_yfinance |   V: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:54,373 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/V.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:54,375 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/V.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:54,376 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/V.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:54,378 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/V.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:54,379 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/V.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:54,381 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/V.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:54,686 | INFO | ingest_yfinance | 
+[20/50] MA
+2026-03-18 18:02:54,686 | INFO | ingest_yfinance |   Downloading MA (attempt 1/3)
+2026-03-18 18:02:55,046 | INFO | ingest_yfinance |   MA: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:55,049 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MA.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:55,050 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MA.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:55,052 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MA.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:55,053 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MA.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:55,055 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MA.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:55,056 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MA.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:55,361 | INFO | ingest_yfinance | 
+[21/50] JNJ
+2026-03-18 18:02:55,361 | INFO | ingest_yfinance |   Downloading JNJ (attempt 1/3)
+2026-03-18 18:02:55,812 | INFO | ingest_yfinance |   JNJ: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:55,816 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/JNJ.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:55,818 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/JNJ.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:55,819 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/JNJ.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:55,820 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/JNJ.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:55,822 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/JNJ.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:55,823 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/JNJ.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:56,128 | INFO | ingest_yfinance | 
+[22/50] UNH
+2026-03-18 18:02:56,128 | INFO | ingest_yfinance |   Downloading UNH (attempt 1/3)
+2026-03-18 18:02:56,534 | INFO | ingest_yfinance |   UNH: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:56,538 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/UNH.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:56,539 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/UNH.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:56,540 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/UNH.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:56,541 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/UNH.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:56,543 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/UNH.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:56,544 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/UNH.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:56,849 | INFO | ingest_yfinance | 
+[23/50] LLY
+2026-03-18 18:02:56,849 | INFO | ingest_yfinance |   Downloading LLY (attempt 1/3)
+2026-03-18 18:02:57,353 | INFO | ingest_yfinance |   LLY: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:57,357 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/LLY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:57,359 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/LLY.parquet (17.5 KB, 253 rows)
+2026-03-18 18:02:57,361 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/LLY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:57,363 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/LLY.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:57,364 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/LLY.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:57,366 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/LLY.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:57,670 | INFO | ingest_yfinance | 
+[24/50] ABBV
+2026-03-18 18:02:57,670 | INFO | ingest_yfinance |   Downloading ABBV (attempt 1/3)
+2026-03-18 18:02:58,036 | INFO | ingest_yfinance |   ABBV: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:58,040 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/ABBV.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:58,041 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/ABBV.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:58,043 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/ABBV.parquet (17.5 KB, 252 rows)
+2026-03-18 18:02:58,044 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/ABBV.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:58,045 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/ABBV.parquet (17.4 KB, 250 rows)
+2026-03-18 18:02:58,047 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/ABBV.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:58,350 | INFO | ingest_yfinance | 
+[25/50] PFE
+2026-03-18 18:02:58,350 | INFO | ingest_yfinance |   Downloading PFE (attempt 1/3)
+2026-03-18 18:02:59,084 | INFO | ingest_yfinance |   PFE: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:02:59,087 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/PFE.parquet (17.4 KB, 252 rows)
+2026-03-18 18:02:59,089 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/PFE.parquet (17.6 KB, 253 rows)
+2026-03-18 18:02:59,090 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/PFE.parquet (17.6 KB, 252 rows)
+2026-03-18 18:02:59,091 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/PFE.parquet (17.5 KB, 251 rows)
+2026-03-18 18:02:59,093 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/PFE.parquet (17.5 KB, 250 rows)
+2026-03-18 18:02:59,094 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/PFE.parquet (17.4 KB, 251 rows)
+2026-03-18 18:02:59,395 | INFO | ingest_yfinance | 
+[26/50] MRK
+2026-03-18 18:02:59,395 | INFO | ingest_yfinance |   Downloading MRK (attempt 1/3)
+2026-03-18 18:03:00,138 | INFO | ingest_yfinance |   MRK: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:00,141 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MRK.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:00,143 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MRK.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:00,144 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MRK.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:00,145 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MRK.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:00,146 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MRK.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:00,147 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MRK.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:00,452 | INFO | ingest_yfinance | 
+[27/50] TMO
+2026-03-18 18:03:00,452 | INFO | ingest_yfinance |   Downloading TMO (attempt 1/3)
+2026-03-18 18:03:01,423 | INFO | ingest_yfinance |   TMO: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:01,425 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/TMO.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:01,427 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/TMO.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:01,428 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/TMO.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:01,429 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/TMO.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:01,430 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/TMO.parquet (17.3 KB, 250 rows)
+2026-03-18 18:03:01,431 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/TMO.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:01,731 | INFO | ingest_yfinance | 
+[28/50] ABT
+2026-03-18 18:03:01,731 | INFO | ingest_yfinance |   Downloading ABT (attempt 1/3)
+2026-03-18 18:03:02,490 | INFO | ingest_yfinance |   ABT: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:02,494 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/ABT.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:02,496 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/ABT.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:02,497 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/ABT.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:02,499 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/ABT.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:02,500 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/ABT.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:02,501 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/ABT.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:02,803 | INFO | ingest_yfinance | 
+[29/50] DHR
+2026-03-18 18:03:02,803 | INFO | ingest_yfinance |   Downloading DHR (attempt 1/3)
+2026-03-18 18:03:03,182 | INFO | ingest_yfinance |   DHR: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:03,184 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/DHR.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:03,186 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/DHR.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:03,187 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/DHR.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:03,189 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/DHR.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:03,190 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/DHR.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:03,191 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/DHR.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:03,494 | INFO | ingest_yfinance | 
+[30/50] BMY
+2026-03-18 18:03:03,494 | INFO | ingest_yfinance |   Downloading BMY (attempt 1/3)
+2026-03-18 18:03:03,925 | INFO | ingest_yfinance |   BMY: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:03,929 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/BMY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:03,931 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/BMY.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:03,932 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/BMY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:03,933 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/BMY.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:03,934 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/BMY.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:03,936 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/BMY.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:04,239 | INFO | ingest_yfinance | 
+[31/50] XOM
+2026-03-18 18:03:04,239 | INFO | ingest_yfinance |   Downloading XOM (attempt 1/3)
+2026-03-18 18:03:04,712 | INFO | ingest_yfinance |   XOM: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:04,716 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/XOM.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:04,717 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/XOM.parquet (17.7 KB, 253 rows)
+2026-03-18 18:03:04,719 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/XOM.parquet (17.6 KB, 252 rows)
+2026-03-18 18:03:04,720 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/XOM.parquet (17.6 KB, 251 rows)
+2026-03-18 18:03:04,722 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/XOM.parquet (17.5 KB, 250 rows)
+2026-03-18 18:03:04,723 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/XOM.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:05,025 | INFO | ingest_yfinance | 
+[32/50] CVX
+2026-03-18 18:03:05,025 | INFO | ingest_yfinance |   Downloading CVX (attempt 1/3)
+2026-03-18 18:03:05,560 | INFO | ingest_yfinance |   CVX: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:05,563 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/CVX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:05,564 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/CVX.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:05,565 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/CVX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:05,567 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/CVX.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:05,568 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/CVX.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:05,569 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/CVX.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:05,872 | INFO | ingest_yfinance | 
+[33/50] COP
+2026-03-18 18:03:05,872 | INFO | ingest_yfinance |   Downloading COP (attempt 1/3)
+2026-03-18 18:03:06,305 | INFO | ingest_yfinance |   COP: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:06,308 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/COP.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:06,309 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/COP.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:06,310 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/COP.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:06,312 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/COP.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:06,313 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/COP.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:06,314 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/COP.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:06,619 | INFO | ingest_yfinance | 
+[34/50] SLB
+2026-03-18 18:03:06,619 | INFO | ingest_yfinance |   Downloading SLB (attempt 1/3)
+2026-03-18 18:03:07,081 | INFO | ingest_yfinance |   SLB: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:07,084 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/SLB.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:07,085 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/SLB.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:07,087 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/SLB.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:07,088 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/SLB.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:07,089 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/SLB.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:07,091 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/SLB.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:07,393 | INFO | ingest_yfinance | 
+[35/50] EOG
+2026-03-18 18:03:07,393 | INFO | ingest_yfinance |   Downloading EOG (attempt 1/3)
+2026-03-18 18:03:07,833 | INFO | ingest_yfinance |   EOG: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:07,837 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/EOG.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:07,839 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/EOG.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:07,840 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/EOG.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:07,842 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/EOG.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:07,844 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/EOG.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:07,845 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/EOG.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:08,149 | INFO | ingest_yfinance | 
+[36/50] PXD
+2026-03-18 18:03:08,149 | INFO | ingest_yfinance |   Downloading PXD (attempt 1/3)
+2026-03-18 18:03:08,850 | ERROR | yfinance | $PXD: possibly delisted; no timezone found
+2026-03-18 18:03:08,859 | ERROR | yfinance | 
+1 Failed download:
+2026-03-18 18:03:08,859 | ERROR | yfinance | ['PXD']: possibly delisted; no timezone found
+2026-03-18 18:03:08,862 | WARNING | ingest_yfinance |   PXD attempt 1 failed: yfinance returned empty DataFrame for PXD
+2026-03-18 18:03:08,863 | INFO | ingest_yfinance |   Waiting 5s before retry...
+2026-03-18 18:03:13,868 | INFO | ingest_yfinance |   Downloading PXD (attempt 2/3)
+2026-03-18 18:03:14,423 | ERROR | yfinance | $PXD: possibly delisted; no timezone found
+2026-03-18 18:03:14,429 | ERROR | yfinance | 
+1 Failed download:
+2026-03-18 18:03:14,430 | ERROR | yfinance | ['PXD']: possibly delisted; no timezone found
+2026-03-18 18:03:14,433 | WARNING | ingest_yfinance |   PXD attempt 2 failed: yfinance returned empty DataFrame for PXD
+2026-03-18 18:03:14,433 | INFO | ingest_yfinance |   Waiting 5s before retry...
+2026-03-18 18:03:19,433 | INFO | ingest_yfinance |   Downloading PXD (attempt 3/3)
+2026-03-18 18:03:19,437 | ERROR | yfinance | $PXD: possibly delisted; no timezone found
+2026-03-18 18:03:19,448 | ERROR | yfinance | 
+1 Failed download:
+2026-03-18 18:03:19,448 | ERROR | yfinance | ['PXD']: possibly delisted; no timezone found
+2026-03-18 18:03:19,452 | WARNING | ingest_yfinance |   PXD attempt 3 failed: yfinance returned empty DataFrame for PXD
+2026-03-18 18:03:19,452 | ERROR | ingest_yfinance |   FAILED PXD: All 3 attempts failed for PXD
+2026-03-18 18:03:19,756 | INFO | ingest_yfinance | 
+[37/50] MPC
+2026-03-18 18:03:19,756 | INFO | ingest_yfinance |   Downloading MPC (attempt 1/3)
+2026-03-18 18:03:20,698 | INFO | ingest_yfinance |   MPC: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:20,701 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MPC.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:20,702 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MPC.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:20,703 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MPC.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:20,705 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MPC.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:20,706 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MPC.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:20,707 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MPC.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:21,012 | INFO | ingest_yfinance | 
+[38/50] PSX
+2026-03-18 18:03:21,012 | INFO | ingest_yfinance |   Downloading PSX (attempt 1/3)
+2026-03-18 18:03:21,982 | INFO | ingest_yfinance |   PSX: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:21,985 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/PSX.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:21,987 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/PSX.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:21,988 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/PSX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:21,989 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/PSX.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:21,990 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/PSX.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:21,992 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/PSX.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:22,295 | INFO | ingest_yfinance | 
+[39/50] VLO
+2026-03-18 18:03:22,295 | INFO | ingest_yfinance |   Downloading VLO (attempt 1/3)
+2026-03-18 18:03:23,995 | INFO | ingest_yfinance |   VLO: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:23,998 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/VLO.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:23,999 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/VLO.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:24,001 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/VLO.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:24,002 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/VLO.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:24,003 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/VLO.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:24,004 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/VLO.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:24,309 | INFO | ingest_yfinance | 
+[40/50] OXY
+2026-03-18 18:03:24,310 | INFO | ingest_yfinance |   Downloading OXY (attempt 1/3)
+2026-03-18 18:03:24,765 | INFO | ingest_yfinance |   OXY: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:24,768 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/OXY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:24,770 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/OXY.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:24,771 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/OXY.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:24,772 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/OXY.parquet (17.6 KB, 251 rows)
+2026-03-18 18:03:24,773 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/OXY.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:24,774 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/OXY.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:25,079 | INFO | ingest_yfinance | 
+[41/50] WMT
+2026-03-18 18:03:25,080 | INFO | ingest_yfinance |   Downloading WMT (attempt 1/3)
+2026-03-18 18:03:25,695 | INFO | ingest_yfinance |   WMT: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:25,697 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/WMT.parquet (17.6 KB, 252 rows)
+2026-03-18 18:03:25,699 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/WMT.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:25,700 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/WMT.parquet (17.6 KB, 252 rows)
+2026-03-18 18:03:25,701 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/WMT.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:25,702 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/WMT.parquet (17.5 KB, 250 rows)
+2026-03-18 18:03:25,703 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/WMT.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:26,005 | INFO | ingest_yfinance | 
+[42/50] HD
+2026-03-18 18:03:26,005 | INFO | ingest_yfinance |   Downloading HD (attempt 1/3)
+2026-03-18 18:03:26,402 | INFO | ingest_yfinance |   HD: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:26,406 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/HD.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:26,407 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/HD.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:26,409 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/HD.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:26,411 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/HD.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:26,412 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/HD.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:26,413 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/HD.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:26,718 | INFO | ingest_yfinance | 
+[43/50] MCD
+2026-03-18 18:03:26,719 | INFO | ingest_yfinance |   Downloading MCD (attempt 1/3)
+2026-03-18 18:03:27,185 | INFO | ingest_yfinance |   MCD: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:27,188 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/MCD.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:27,190 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/MCD.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:27,191 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/MCD.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:27,193 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/MCD.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:27,194 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/MCD.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:27,195 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/MCD.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:27,498 | INFO | ingest_yfinance | 
+[44/50] NKE
+2026-03-18 18:03:27,498 | INFO | ingest_yfinance |   Downloading NKE (attempt 1/3)
+2026-03-18 18:03:27,929 | INFO | ingest_yfinance |   NKE: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:27,932 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/NKE.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:27,934 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/NKE.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:27,935 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/NKE.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:27,936 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/NKE.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:27,938 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/NKE.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:27,939 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/NKE.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:28,244 | INFO | ingest_yfinance | 
+[45/50] SBUX
+2026-03-18 18:03:28,244 | INFO | ingest_yfinance |   Downloading SBUX (attempt 1/3)
+2026-03-18 18:03:28,571 | INFO | ingest_yfinance |   SBUX: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:28,574 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/SBUX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:28,575 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/SBUX.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:28,576 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/SBUX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:28,578 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/SBUX.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:28,579 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/SBUX.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:28,580 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/SBUX.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:28,885 | INFO | ingest_yfinance | 
+[46/50] TGT
+2026-03-18 18:03:28,886 | INFO | ingest_yfinance |   Downloading TGT (attempt 1/3)
+2026-03-18 18:03:29,348 | INFO | ingest_yfinance |   TGT: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:29,351 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/TGT.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:29,353 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/TGT.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:29,354 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/TGT.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:29,356 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/TGT.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:29,357 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/TGT.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:29,358 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/TGT.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:29,659 | INFO | ingest_yfinance | 
+[47/50] COST
+2026-03-18 18:03:29,659 | INFO | ingest_yfinance |   Downloading COST (attempt 1/3)
+2026-03-18 18:03:30,306 | INFO | ingest_yfinance |   COST: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:30,310 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/COST.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:30,312 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/COST.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:30,314 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/COST.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:30,315 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/COST.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:30,317 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/COST.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:30,318 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/COST.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:30,619 | INFO | ingest_yfinance | 
+[48/50] LOW
+2026-03-18 18:03:30,619 | INFO | ingest_yfinance |   Downloading LOW (attempt 1/3)
+2026-03-18 18:03:31,852 | INFO | ingest_yfinance |   LOW: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:31,856 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/LOW.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:31,857 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/LOW.parquet (17.6 KB, 253 rows)
+2026-03-18 18:03:31,859 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/LOW.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:31,860 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/LOW.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:31,861 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/LOW.parquet (17.3 KB, 250 rows)
+2026-03-18 18:03:31,863 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/LOW.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:32,165 | INFO | ingest_yfinance | 
+[49/50] TJX
+2026-03-18 18:03:32,166 | INFO | ingest_yfinance |   Downloading TJX (attempt 1/3)
+2026-03-18 18:03:32,919 | INFO | ingest_yfinance |   TJX: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:32,924 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/TJX.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:32,926 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/TJX.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:32,927 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/TJX.parquet (17.5 KB, 252 rows)
+2026-03-18 18:03:32,929 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/TJX.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:32,930 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/TJX.parquet (17.3 KB, 250 rows)
+2026-03-18 18:03:32,931 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/TJX.parquet (17.5 KB, 251 rows)
+2026-03-18 18:03:33,235 | INFO | ingest_yfinance | 
+[50/50] DG
+2026-03-18 18:03:33,236 | INFO | ingest_yfinance |   Downloading DG (attempt 1/3)
+2026-03-18 18:03:33,980 | INFO | ingest_yfinance |   DG: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:03:33,984 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/DG.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:33,985 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/DG.parquet (17.5 KB, 253 rows)
+2026-03-18 18:03:33,987 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/DG.parquet (17.4 KB, 252 rows)
+2026-03-18 18:03:33,988 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/DG.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:33,989 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/DG.parquet (17.4 KB, 250 rows)
+2026-03-18 18:03:33,990 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/DG.parquet (17.4 KB, 251 rows)
+2026-03-18 18:03:34,294 | INFO | ingest_yfinance | 
+============================================================
+2026-03-18 18:03:34,294 | INFO | ingest_yfinance | INGESTION COMPLETE
+2026-03-18 18:03:34,294 | INFO | ingest_yfinance | Succeeded : 49/50 tickers
+2026-03-18 18:03:34,294 | INFO | ingest_yfinance | Failed    : ['PXD']
+2026-03-18 18:03:34,295 | INFO | ingest_yfinance | Total rows: 73,941
+2026-03-18 18:03:34,295 | INFO | ingest_yfinance | Time taken: 54.9s
+2026-03-18 18:03:34,295 | INFO | ingest_yfinance | ============================================================

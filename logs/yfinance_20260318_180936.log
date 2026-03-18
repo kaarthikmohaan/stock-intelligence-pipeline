@@ -1,0 +1,24 @@
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | ============================================================
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | yfinance Historical Price Ingestion
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | Tickers : 1
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | Period  : 2019-01-01 → 2024-12-31
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | Output  : /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | ============================================================
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance | 
+[01/1] KMI
+2026-03-18 18:09:36,893 | INFO | ingest_yfinance |   Downloading KMI (attempt 1/3)
+2026-03-18 18:09:38,632 | INFO | ingest_yfinance |   KMI: 1509 rows from 2019-01-02 to 2024-12-30
+2026-03-18 18:09:38,651 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2019/KMI.parquet (17.3 KB, 252 rows)
+2026-03-18 18:09:38,652 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2020/KMI.parquet (17.5 KB, 253 rows)
+2026-03-18 18:09:38,653 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2021/KMI.parquet (17.4 KB, 252 rows)
+2026-03-18 18:09:38,654 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2022/KMI.parquet (17.4 KB, 251 rows)
+2026-03-18 18:09:38,655 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2023/KMI.parquet (17.2 KB, 250 rows)
+2026-03-18 18:09:38,656 | INFO | ingest_yfinance |   Saved: /Users/karthikmohan/Desktop/stock-intelligence-pipeline/data/bronze/prices/yfinance/year=2024/KMI.parquet (17.4 KB, 251 rows)
+2026-03-18 18:09:38,961 | INFO | ingest_yfinance | 
+============================================================
+2026-03-18 18:09:38,961 | INFO | ingest_yfinance | INGESTION COMPLETE
+2026-03-18 18:09:38,962 | INFO | ingest_yfinance | Succeeded : 1/1 tickers
+2026-03-18 18:09:38,962 | INFO | ingest_yfinance | Failed    : none
+2026-03-18 18:09:38,962 | INFO | ingest_yfinance | Total rows: 1,509
+2026-03-18 18:09:38,962 | INFO | ingest_yfinance | Time taken: 2.1s
+2026-03-18 18:09:38,962 | INFO | ingest_yfinance | ============================================================
