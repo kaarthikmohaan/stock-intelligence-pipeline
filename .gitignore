@@ -4,3 +4,8 @@ venv/
 *.pyc
 logs/
 data/bronze/prices/kaggle_raw/
+data/bronze/filings/
+data/bronze/prices/kaggle/
+data/bronze/news/
+data/silver/
+data/gold/
