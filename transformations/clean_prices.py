@@ -236,6 +236,8 @@ def process_source(source: str, sample: int = None) -> dict:
             engine=PARQUET_ENGINE,
             compression=PARQUET_COMPRESSION,
             index=False,
+            coerce_timestamps="us",
+            allow_truncated_timestamps=True,
         )
         size_kb = os.path.getsize(out_path) / 1024
         log.info(f"  year={year}: {len(year_df):,} rows → {size_kb:.0f} KB")
