@@ -1,8 +1,8 @@
 """
 Stock Intelligence Pipeline — Full Project Checkpoint
 ======================================================
-Verifies everything built in Phase 1 and Phase 2.
-Run this before starting Phase 3 to catch any issues early.
+Verifies everything built in previous Phases.
+Run this before starting every Phase to catch any issues early.
 
 Usage: python checkpoint.py
 """
@@ -499,8 +499,8 @@ print(f"  {YELLOW}Warned : {results['warned']}{RESET}")
 print(f"  Total  : {total}")
 
 if results["failed"] == 0:
-    print(f"\n  {GREEN}{BOLD}ALL CHECKS PASSED — SAFE TO START PHASE 4 🚀{RESET}\n")
+    print(f"\n  {GREEN}{BOLD}ALL CHECKS PASSED — SAFE TO START NEXT PHASE 🚀{RESET}\n")
 elif results["failed"] <= 2:
     print(f"\n  {YELLOW}{BOLD}{results['failed']} MINOR ISSUE(S) — review above then proceed{RESET}\n")
 else:
-    print(f"\n  {RED}{BOLD}{results['failed']} ISSUE(S) FOUND — fix before Phase 3{RESET}\n")
+    print(f"\n  {RED}{BOLD}{results['failed']} ISSUE(S) FOUND — fix before next Phase{RESET}\n")
