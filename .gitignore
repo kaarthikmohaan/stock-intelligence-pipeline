@@ -9,3 +9,5 @@ data/bronze/prices/kaggle/
 data/bronze/news/
 data/silver/
 data/gold/
+dbt_project/target/
+dbt_project/dbt_packages/
