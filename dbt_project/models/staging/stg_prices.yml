@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_prices
+    description: "Cleaned and standardised daily price data from yfinance silver layer"
+    columns:
+      - name: ticker
+        description: "Stock ticker symbol"
+        data_tests:
+          - not_null
+      - name: price_date
+        description: "Trading date"
+        data_tests:
+          - not_null
+      - name: close_price
+        description: "Adjusted closing price"
+        data_tests:
+          - not_null

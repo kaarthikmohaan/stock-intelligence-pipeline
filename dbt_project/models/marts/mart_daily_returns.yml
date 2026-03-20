@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: mart_daily_returns
+    description: "Daily return statistics per ticker across full date range"
+    columns:
+      - name: ticker
+        data_tests:
+          - not_null
+          - unique
+      - name: avg_daily_return_pct
+        data_tests:
+          - not_null
