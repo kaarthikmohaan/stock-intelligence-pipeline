@@ -499,7 +499,7 @@ print(f"  {YELLOW}Warned : {results['warned']}{RESET}")
 print(f"  Total  : {total}")
 
 if results["failed"] == 0:
-    print(f"\n  {GREEN}{BOLD}ALL CHECKS PASSED — SAFE TO START PHASE 3 🚀{RESET}\n")
+    print(f"\n  {GREEN}{BOLD}ALL CHECKS PASSED — SAFE TO START PHASE 4 🚀{RESET}\n")
 elif results["failed"] <= 2:
     print(f"\n  {YELLOW}{BOLD}{results['failed']} MINOR ISSUE(S) — review above then proceed{RESET}\n")
 else:
